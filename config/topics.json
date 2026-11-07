@@ -1,0 +1,1869 @@
+{
+  "version": "1.0",
+  "sources": [
+    "hamagakuen_grade1_3_math.json"
+  ],
+  "topics": [
+    {
+      "code": "CALC.01",
+      "categoryCode": "CALC",
+      "nameJa": "たし算とひき算",
+      "nameZh": "加法与减法",
+      "description": "整数の加法と減法、繰り上がり、繰り下がり、筆算を習得する。",
+      "gradeFrom": 1,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "CALC.01.001",
+          "nameJa": "一桁・二桁のたし算",
+          "nameZh": "一位数与两位数加法",
+          "description": "一桁および二桁の整数の加法を理解し、繰り上がりのある計算を正確に行う。",
+          "gradeFrom": 1,
+          "gradeTo": 1,
+          "keywords": [
+            "たし算",
+            "加法",
+            "繰り上がり"
+          ],
+          "prerequisites": [
+            "NUM.02.001"
+          ],
+          "related": [
+            "CALC.01.002",
+            "WORD.01.001"
+          ]
+        },
+        {
+          "code": "CALC.01.002",
+          "nameJa": "ひき算と繰り下がり",
+          "nameZh": "减法与退位",
+          "description": "整数の減法を理解し、繰り下がりを含む計算を正確に行う。",
+          "gradeFrom": 1,
+          "gradeTo": 2,
+          "keywords": [
+            "ひき算",
+            "減法",
+            "繰り下がり"
+          ],
+          "prerequisites": [
+            "CALC.01.001"
+          ],
+          "related": [
+            "CALC.01.003",
+            "WORD.01.002"
+          ]
+        },
+        {
+          "code": "CALC.01.003",
+          "nameJa": "多桁のたし算・ひき算",
+          "nameZh": "多位数加减法",
+          "description": "三桁以上の整数について筆算を用い、繰り上がりや繰り下がりを正しく処理する。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "筆算",
+            "多桁",
+            "加減"
+          ],
+          "prerequisites": [
+            "CALC.01.001",
+            "CALC.01.002"
+          ],
+          "related": [
+            "CALC.04.001",
+            "CALC.05.001"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CALC.02",
+      "categoryCode": "CALC",
+      "nameJa": "かけ算",
+      "nameZh": "乘法",
+      "description": "同じ数を何回も加える考え方から乗法を理解し、九九や筆算を習得する。",
+      "gradeFrom": 1,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "CALC.02.001",
+          "nameJa": "かけ算の意味",
+          "nameZh": "乘法的意义",
+          "description": "同じ数量を何回か加えることを乗法で表し、乗法の意味と式の構成を理解する。",
+          "gradeFrom": 1,
+          "gradeTo": 2,
+          "keywords": [
+            "かけ算",
+            "乗法",
+            "同じ数"
+          ],
+          "prerequisites": [
+            "CALC.01.001"
+          ],
+          "related": [
+            "CALC.02.002",
+            "WORD.02.001"
+          ]
+        },
+        {
+          "code": "CALC.02.002",
+          "nameJa": "九九の暗記と計算",
+          "nameZh": "九九口诀与计算",
+          "description": "1から9までの九九を習得し、乗法の計算を素早く正確に行う。",
+          "gradeFrom": 1,
+          "gradeTo": 2,
+          "keywords": [
+            "九九",
+            "乗法",
+            "暗算"
+          ],
+          "prerequisites": [
+            "CALC.02.001"
+          ],
+          "related": [
+            "CALC.02.003",
+            "CALC.03.001"
+          ]
+        },
+        {
+          "code": "CALC.02.003",
+          "nameJa": "かけ算の筆算",
+          "nameZh": "乘法竖式",
+          "description": "二桁以上の整数の乗法を筆算で処理し、部分積と位取りの関係を理解する。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "かけ算",
+            "筆算",
+            "部分積"
+          ],
+          "prerequisites": [
+            "CALC.02.002",
+            "NUM.01.003"
+          ],
+          "related": [
+            "CALC.04.001",
+            "WORD.02.002"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CALC.03",
+      "categoryCode": "CALC",
+      "nameJa": "わり算",
+      "nameZh": "除法",
+      "description": "等分除と包含除、余りのある割り算、整数の除法を習得する。",
+      "gradeFrom": 2,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "CALC.03.001",
+          "nameJa": "わり算の意味",
+          "nameZh": "除法的意义",
+          "description": "数量を等しく分ける等分除と、いくつ分あるかを求める包含除を理解する。",
+          "gradeFrom": 2,
+          "gradeTo": 2,
+          "keywords": [
+            "わり算",
+            "等分除",
+            "包含除"
+          ],
+          "prerequisites": [
+            "CALC.02.002"
+          ],
+          "related": [
+            "CALC.03.002",
+            "WORD.03.001"
+          ]
+        },
+        {
+          "code": "CALC.03.002",
+          "nameJa": "余りのあるわり算",
+          "nameZh": "有余数的除法",
+          "description": "割り切れない場合の余りの意味、余りと割る数の大小関係を理解する。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "余り",
+            "除法",
+            "割り切れる"
+          ],
+          "prerequisites": [
+            "CALC.03.001"
+          ],
+          "related": [
+            "NUM.03.002",
+            "WORD.03.002"
+          ]
+        },
+        {
+          "code": "CALC.03.003",
+          "nameJa": "わり算の筆算",
+          "nameZh": "除法竖式",
+          "description": "整数の除法について、商の立て方と余りの処理を含めた筆算を習得する。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "除法筆算",
+            "商",
+            "余り"
+          ],
+          "prerequisites": [
+            "CALC.03.001",
+            "CALC.03.002"
+          ],
+          "related": [
+            "CALC.04.001",
+            "CALC.05.001"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CALC.04",
+      "categoryCode": "CALC",
+      "nameJa": "四則混合計算と計算の工夫",
+      "nameZh": "四则混合运算与巧算",
+      "description": "加減乗除を組み合わせた計算、計算順序、交換法則・結合法則などを理解する。",
+      "gradeFrom": 2,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "CALC.04.001",
+          "nameJa": "四則混合計算",
+          "nameZh": "四则混合运算",
+          "description": "加法、減法、乗法、除法が混在する式について、正しい計算順序で処理する。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "四則演算",
+            "計算順序",
+            "混合計算"
+          ],
+          "prerequisites": [
+            "CALC.01.003",
+            "CALC.02.002",
+            "CALC.03.001"
+          ],
+          "related": [
+            "CALC.04.002",
+            "CALC.05.002"
+          ]
+        },
+        {
+          "code": "CALC.04.002",
+          "nameJa": "計算のきまりと工夫",
+          "nameZh": "运算定律与巧算",
+          "description": "交換法則、結合法則、分配法則を利用して計算を簡単にする。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "交換法則",
+            "結合法則",
+            "分配法則",
+            "巧算"
+          ],
+          "prerequisites": [
+            "CALC.04.001"
+          ],
+          "related": [
+            "CALC.04.003",
+            "CALC.05.002"
+          ]
+        },
+        {
+          "code": "CALC.04.003",
+          "nameJa": "逆算の基礎",
+          "nameZh": "逆运算基础",
+          "description": "答えと一部の条件から、元の数や未知の数量を逆算によって求める。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "逆算",
+            "未知数",
+            "逆演算"
+          ],
+          "prerequisites": [
+            "CALC.04.001",
+            "CALC.04.002"
+          ],
+          "related": [
+            "WORD.05.001",
+            "WORD.05.002"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CALC.05",
+      "categoryCode": "CALC",
+      "nameJa": "小数と分数の計算",
+      "nameZh": "小数与分数计算",
+      "description": "小数と分数の基本概念、表現、大小比較、基本的な四則計算を習得する。",
+      "gradeFrom": 3,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "CALC.05.001",
+          "nameJa": "小数の意味と表し方",
+          "nameZh": "小数的意义与表示",
+          "description": "整数で表せない数量を小数で表し、小数の位取りと大小を理解する。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "小数",
+            "小数点",
+            "位取り"
+          ],
+          "prerequisites": [
+            "NUM.01.003"
+          ],
+          "related": [
+            "CALC.05.002",
+            "MEASURE.01.002"
+          ]
+        },
+        {
+          "code": "CALC.05.002",
+          "nameJa": "小数の四則計算",
+          "nameZh": "小数四则运算",
+          "description": "小数の加減乗除を学び、小数点の位置と計算結果の関係を理解する。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "小数計算",
+            "小数の加減",
+            "小数の乗除"
+          ],
+          "prerequisites": [
+            "CALC.05.001",
+            "CALC.04.001"
+          ],
+          "related": [
+            "CALC.05.004",
+            "MEASURE.01.002"
+          ]
+        },
+        {
+          "code": "CALC.05.003",
+          "nameJa": "分数の意味と表し方",
+          "nameZh": "分数的意义与表示",
+          "description": "一つの量を等しく分けたときの一部分を分数で表し、分子と分母の意味を理解する。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "分数",
+            "分子",
+            "分母"
+          ],
+          "prerequisites": [
+            "NUM.02.001"
+          ],
+          "related": [
+            "CALC.05.004",
+            "CALC.05.005"
+          ]
+        },
+        {
+          "code": "CALC.05.004",
+          "nameJa": "分数の大小と同値分数",
+          "nameZh": "分数大小与等值分数",
+          "description": "分数の大きさを図や数直線で比較し、同じ大きさを表す分数の関係を理解する。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "分数比較",
+            "同値分数",
+            "数直線"
+          ],
+          "prerequisites": [
+            "CALC.05.003"
+          ],
+          "related": [
+            "CALC.05.005",
+            "CALC.05.006"
+          ]
+        },
+        {
+          "code": "CALC.05.005",
+          "nameJa": "分数の加減",
+          "nameZh": "分数加减法",
+          "description": "分母が同じ分数を中心に、分数の加法と減法の基本を理解する。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "分数の加法",
+            "分数の減法"
+          ],
+          "prerequisites": [
+            "CALC.05.003",
+            "CALC.05.004"
+          ],
+          "related": [
+            "CALC.05.006",
+            "WORD.06.002"
+          ]
+        },
+        {
+          "code": "CALC.05.006",
+          "nameJa": "小数と分数の関係",
+          "nameZh": "小数与分数的关系",
+          "description": "同じ数量を小数と分数で表し、両者の変換や大小関係を理解する。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "小数分数変換",
+            "数の表現"
+          ],
+          "prerequisites": [
+            "CALC.05.001",
+            "CALC.05.003"
+          ],
+          "related": [
+            "CALC.05.004",
+            "MEASURE.01.002"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DATA.01",
+      "categoryCode": "DATA",
+      "nameJa": "表の読み取りと整理",
+      "nameZh": "表格读取与整理",
+      "description": "数量や条件を表に整理し、必要な情報を正確に読み取る。",
+      "gradeFrom": 1,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "DATA.01.001",
+          "nameJa": "簡単な表の読み取り",
+          "nameZh": "简单表格读取",
+          "description": "表に記載された数量や項目を読み取り、必要な情報を取り出す。",
+          "gradeFrom": 1,
+          "gradeTo": 2,
+          "keywords": [
+            "表",
+            "項目",
+            "数量"
+          ],
+          "prerequisites": [
+            "NUM.01.001"
+          ],
+          "related": [
+            "DATA.01.002",
+            "LOGIC.01.002"
+          ]
+        },
+        {
+          "code": "DATA.01.002",
+          "nameJa": "二つの条件を整理する表",
+          "nameZh": "双条件整理表",
+          "description": "二種類の条件を組み合わせた表を作成し、数量や対応関係を整理する。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "二次元表",
+            "条件整理",
+            "対応関係"
+          ],
+          "prerequisites": [
+            "DATA.01.001"
+          ],
+          "related": [
+            "LOGIC.01.002",
+            "WORD.05.002"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DATA.02",
+      "categoryCode": "DATA",
+      "nameJa": "グラフの読み取り",
+      "nameZh": "图表读取",
+      "description": "棒グラフや簡単な折れ線グラフから数量の変化や大小関係を読み取る。",
+      "gradeFrom": 2,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "DATA.02.001",
+          "nameJa": "棒グラフの読み取り",
+          "nameZh": "柱状图读取",
+          "description": "棒グラフから各項目の数量や大小、差を読み取る。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "棒グラフ",
+            "数量",
+            "比較"
+          ],
+          "prerequisites": [
+            "DATA.01.001"
+          ],
+          "related": [
+            "DATA.02.002",
+            "WORD.04.001"
+          ]
+        },
+        {
+          "code": "DATA.02.002",
+          "nameJa": "変化を表すグラフ",
+          "nameZh": "变化趋势图",
+          "description": "時間や順序に沿った数量の変化をグラフから読み取り、増減や特徴を説明する。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "折れ線グラフ",
+            "変化",
+            "増減"
+          ],
+          "prerequisites": [
+            "DATA.02.001"
+          ],
+          "related": [
+            "MEASURE.02.002",
+            "WORD.05.002"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "FIGURE.01",
+      "categoryCode": "FIGURE",
+      "nameJa": "平面図形の基礎",
+      "nameZh": "平面几何基础",
+      "description": "基本的な平面図形の形、特徴、構成要素を理解する。",
+      "gradeFrom": 1,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "FIGURE.01.001",
+          "nameJa": "三角形と四角形",
+          "nameZh": "三角形与四边形",
+          "description": "三角形、正方形、長方形などの基本図形を識別し、辺や頂点の特徴を理解する。",
+          "gradeFrom": 1,
+          "gradeTo": 2,
+          "keywords": [
+            "三角形",
+            "四角形",
+            "辺",
+            "頂点"
+          ],
+          "prerequisites": [],
+          "related": [
+            "FIGURE.01.002",
+            "FIGURE.01.003"
+          ]
+        },
+        {
+          "code": "FIGURE.01.002",
+          "nameJa": "円とおうぎ形の基礎",
+          "nameZh": "圆与扇形基础",
+          "description": "円の中心、半径、直径を理解し、円の基本的な特徴を把握する。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "円",
+            "中心",
+            "半径",
+            "直径"
+          ],
+          "prerequisites": [
+            "FIGURE.01.001"
+          ],
+          "related": [
+            "FIGURE.01.004",
+            "FIGURE.02.002"
+          ]
+        },
+        {
+          "code": "FIGURE.01.003",
+          "nameJa": "図形の分割と合成",
+          "nameZh": "图形的分割与组合",
+          "description": "一つの図形を複数に分けたり、複数の図形を組み合わせたりして形の変化を考える。",
+          "gradeFrom": 1,
+          "gradeTo": 3,
+          "keywords": [
+            "図形分割",
+            "図形合成",
+            "組み合わせ"
+          ],
+          "prerequisites": [
+            "FIGURE.01.001"
+          ],
+          "related": [
+            "FIGURE.01.004",
+            "PATTERN.02.001"
+          ]
+        },
+        {
+          "code": "FIGURE.01.004",
+          "nameJa": "角の大きさと種類",
+          "nameZh": "角的大小与类型",
+          "description": "角の大きさを比較し、直角を基準として角の特徴を理解する。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "角",
+            "直角",
+            "角度"
+          ],
+          "prerequisites": [
+            "FIGURE.01.001"
+          ],
+          "related": [
+            "FIGURE.01.002",
+            "FIGURE.01.005"
+          ]
+        },
+        {
+          "code": "FIGURE.01.005",
+          "nameJa": "図形の対称性と位置関係",
+          "nameZh": "图形对称与位置关系",
+          "description": "図形の向き、回転、反転、対称性などを観察して特徴を理解する。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "対称",
+            "回転",
+            "反転",
+            "位置関係"
+          ],
+          "prerequisites": [
+            "FIGURE.01.003"
+          ],
+          "related": [
+            "PATTERN.02.001",
+            "LOGIC.01.001"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "FIGURE.02",
+      "categoryCode": "FIGURE",
+      "nameJa": "立体図形の基礎",
+      "nameZh": "立体几何基础",
+      "description": "立体図形の種類、面、辺、頂点、展開図などの基本を理解する。",
+      "gradeFrom": 1,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "FIGURE.02.001",
+          "nameJa": "立体図形の分類",
+          "nameZh": "立体图形分类",
+          "description": "立方体、直方体、円柱、円すい、球などの基本的な立体を識別する。",
+          "gradeFrom": 1,
+          "gradeTo": 3,
+          "keywords": [
+            "立体図形",
+            "立方体",
+            "直方体",
+            "円柱",
+            "球"
+          ],
+          "prerequisites": [],
+          "related": [
+            "FIGURE.02.002",
+            "FIGURE.02.003"
+          ]
+        },
+        {
+          "code": "FIGURE.02.002",
+          "nameJa": "立体の面・辺・頂点",
+          "nameZh": "立体的面、棱与顶点",
+          "description": "立体図形を構成する面、辺、頂点の数やつながりを理解する。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "面",
+            "辺",
+            "頂点",
+            "構成"
+          ],
+          "prerequisites": [
+            "FIGURE.02.001"
+          ],
+          "related": [
+            "FIGURE.02.003",
+            "FIGURE.02.004"
+          ]
+        },
+        {
+          "code": "FIGURE.02.003",
+          "nameJa": "立体の展開図",
+          "nameZh": "立体展开图",
+          "description": "立体を平面に開いたときの展開図を考え、組み立て後の形を想像する。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "展開図",
+            "組み立て",
+            "立体認識"
+          ],
+          "prerequisites": [
+            "FIGURE.02.002"
+          ],
+          "related": [
+            "FIGURE.02.004",
+            "LOGIC.01.001"
+          ]
+        },
+        {
+          "code": "FIGURE.02.004",
+          "nameJa": "立体の切断と積み重ね",
+          "nameZh": "立体切割与堆叠",
+          "description": "立体を切断したときの断面や、複数の立体を積み重ねたときの形を考える。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "切断",
+            "断面",
+            "積み木",
+            "立体"
+          ],
+          "prerequisites": [
+            "FIGURE.02.002",
+            "FIGURE.02.003"
+          ],
+          "related": [
+            "FIGURE.02.003",
+            "LOGIC.01.001"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "FIGURE.03",
+      "categoryCode": "FIGURE",
+      "nameJa": "長さ・周りの長さ・面積",
+      "nameZh": "长度、周长与面积",
+      "description": "図形の長さ、周長、面積の概念と基本的な求め方を理解する。",
+      "gradeFrom": 2,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "FIGURE.03.001",
+          "nameJa": "図形の周りの長さ",
+          "nameZh": "图形周长",
+          "description": "図形の辺の長さを合計して周長を求め、辺の関係から未知の長さを求める。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "周長",
+            "辺の長さ",
+            "長方形"
+          ],
+          "prerequisites": [
+            "FIGURE.01.001",
+            "MEASURE.01.001"
+          ],
+          "related": [
+            "FIGURE.03.002",
+            "WORD.04.001"
+          ]
+        },
+        {
+          "code": "FIGURE.03.002",
+          "nameJa": "面積の基礎",
+          "nameZh": "面积基础",
+          "description": "面積を広さとして理解し、ます目や基本図形を利用して面積を比較・計算する。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "面積",
+            "広さ",
+            "ます目"
+          ],
+          "prerequisites": [
+            "FIGURE.01.001",
+            "MEASURE.01.001"
+          ],
+          "related": [
+            "FIGURE.03.003",
+            "WORD.06.001"
+          ]
+        },
+        {
+          "code": "FIGURE.03.003",
+          "nameJa": "長方形と正方形の面積",
+          "nameZh": "长方形与正方形面积",
+          "description": "長方形と正方形の面積の公式を理解し、辺の長さから面積を求める。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "長方形",
+            "正方形",
+            "面積公式"
+          ],
+          "prerequisites": [
+            "FIGURE.03.002"
+          ],
+          "related": [
+            "FIGURE.03.004",
+            "WORD.04.001"
+          ]
+        },
+        {
+          "code": "FIGURE.03.004",
+          "nameJa": "複合図形の周長と面積",
+          "nameZh": "组合图形的周长与面积",
+          "description": "複数の基本図形を組み合わせた図形を分割・補完し、周長や面積を求める。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "複合図形",
+            "分割",
+            "補完",
+            "面積"
+          ],
+          "prerequisites": [
+            "FIGURE.03.001",
+            "FIGURE.03.003"
+          ],
+          "related": [
+            "FIGURE.01.003",
+            "WORD.05.002"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LOGIC.01",
+      "categoryCode": "LOGIC",
+      "nameJa": "論理的な推理",
+      "nameZh": "逻辑推理",
+      "description": "与えられた条件を整理し、矛盾しない組み合わせや正しい結論を導く。",
+      "gradeFrom": 1,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "LOGIC.01.001",
+          "nameJa": "位置と順序の推理",
+          "nameZh": "位置与顺序推理",
+          "description": "左右、前後、上下、順位などの条件を整理して正しい位置関係を求める。",
+          "gradeFrom": 1,
+          "gradeTo": 3,
+          "keywords": [
+            "位置",
+            "順序",
+            "順位",
+            "条件"
+          ],
+          "prerequisites": [
+            "NUM.01.004"
+          ],
+          "related": [
+            "LOGIC.01.002",
+            "PATTERN.02.002"
+          ]
+        },
+        {
+          "code": "LOGIC.01.002",
+          "nameJa": "条件整理と対応関係",
+          "nameZh": "条件整理与对应关系",
+          "description": "複数の条件を表や図に整理し、人や物の対応関係を論理的に推理する。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "条件整理",
+            "対応",
+            "推理",
+            "表"
+          ],
+          "prerequisites": [
+            "LOGIC.01.001"
+          ],
+          "related": [
+            "WORD.05.002",
+            "DATA.01.001"
+          ]
+        },
+        {
+          "code": "LOGIC.01.003",
+          "nameJa": "うそつきと真偽の推理",
+          "nameZh": "真假话推理",
+          "description": "複数の発言の真偽や矛盾関係を調べ、正しい条件の組み合わせを求める。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "真偽",
+            "うそつき",
+            "論理"
+          ],
+          "prerequisites": [
+            "LOGIC.01.002"
+          ],
+          "related": [
+            "LOGIC.02.002"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LOGIC.02",
+      "categoryCode": "LOGIC",
+      "nameJa": "場合の数",
+      "nameZh": "排列组合与计数",
+      "description": "複数の選択肢から生じる場合を整理し、漏れや重複なく数える。",
+      "gradeFrom": 1,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "LOGIC.02.001",
+          "nameJa": "基本的な数え上げ",
+          "nameZh": "基础计数",
+          "description": "具体的な場合を一つずつ書き出し、重複や数え漏れがないように数える。",
+          "gradeFrom": 1,
+          "gradeTo": 2,
+          "keywords": [
+            "数え上げ",
+            "場合",
+            "重複"
+          ],
+          "prerequisites": [
+            "NUM.01.001"
+          ],
+          "related": [
+            "LOGIC.02.002",
+            "PATTERN.01.002"
+          ]
+        },
+        {
+          "code": "LOGIC.02.002",
+          "nameJa": "順列の基礎",
+          "nameZh": "排列基础",
+          "description": "複数のものを異なる順番に並べる場合を、樹形図や表を使って数える。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "順列",
+            "並べ方",
+            "樹形図"
+          ],
+          "prerequisites": [
+            "LOGIC.02.001"
+          ],
+          "related": [
+            "LOGIC.02.003",
+            "LOGIC.01.003"
+          ]
+        },
+        {
+          "code": "LOGIC.02.003",
+          "nameJa": "組み合わせの基礎",
+          "nameZh": "组合基础",
+          "description": "順番を区別しない選び方を整理し、重複を除いて場合の数を求める。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "組み合わせ",
+            "選び方",
+            "場合の数"
+          ],
+          "prerequisites": [
+            "LOGIC.02.002"
+          ],
+          "related": [
+            "LOGIC.02.001",
+            "WORD.05.002"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LOGIC.03",
+      "categoryCode": "LOGIC",
+      "nameJa": "試行錯誤とパズル",
+      "nameZh": "尝试与数学谜题",
+      "description": "図や表を用いた試行錯誤を通じて、問題の構造や解決方法を発見する。",
+      "gradeFrom": 1,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "LOGIC.03.001",
+          "nameJa": "魔方陣と数の配置",
+          "nameZh": "幻方与数字排列",
+          "description": "縦、横、斜めなどの合計条件を満たすように数を配置する。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "魔方陣",
+            "数の配置",
+            "合計"
+          ],
+          "prerequisites": [
+            "CALC.01.003",
+            "LOGIC.01.002"
+          ],
+          "related": [
+            "PATTERN.01.003",
+            "LOGIC.03.002"
+          ]
+        },
+        {
+          "code": "LOGIC.03.002",
+          "nameJa": "条件付きパズル",
+          "nameZh": "条件限制谜题",
+          "description": "複数の制約条件を満たすように数や図形を配置し、解答を導く。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "パズル",
+            "制約条件",
+            "配置"
+          ],
+          "prerequisites": [
+            "LOGIC.01.002",
+            "LOGIC.02.001"
+          ],
+          "related": [
+            "LOGIC.03.001",
+            "WORD.05.002"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MEASURE.01",
+      "categoryCode": "MEASURE",
+      "nameJa": "長さ・かさ・重さ",
+      "nameZh": "长度、容积与重量",
+      "description": "日常生活における量を測定し、単位とその換算を理解する。",
+      "gradeFrom": 1,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "MEASURE.01.001",
+          "nameJa": "長さの単位と換算",
+          "nameZh": "长度单位与换算",
+          "description": "mm、cm、m、kmなどの長さの単位を理解し、単位換算と長さの計算を行う。",
+          "gradeFrom": 1,
+          "gradeTo": 3,
+          "keywords": [
+            "長さ",
+            "mm",
+            "cm",
+            "m",
+            "km"
+          ],
+          "prerequisites": [
+            "NUM.01.001"
+          ],
+          "related": [
+            "FIGURE.03.001",
+            "MEASURE.01.002"
+          ]
+        },
+        {
+          "code": "MEASURE.01.002",
+          "nameJa": "かさと体積の単位",
+          "nameZh": "容积与体积单位",
+          "description": "mL、dL、Lなどのかさの単位を理解し、単位換算や数量計算を行う。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "かさ",
+            "mL",
+            "dL",
+            "L"
+          ],
+          "prerequisites": [
+            "NUM.01.002"
+          ],
+          "related": [
+            "CALC.05.001",
+            "WORD.06.001"
+          ]
+        },
+        {
+          "code": "MEASURE.01.003",
+          "nameJa": "重さの単位と換算",
+          "nameZh": "重量单位与换算",
+          "description": "g、kg、tなどの重さの単位を理解し、単位換算と重さの計算を行う。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "重さ",
+            "g",
+            "kg",
+            "t"
+          ],
+          "prerequisites": [
+            "NUM.01.002"
+          ],
+          "related": [
+            "CALC.05.001",
+            "WORD.06.001"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MEASURE.02",
+      "categoryCode": "MEASURE",
+      "nameJa": "時間と時刻",
+      "nameZh": "时间与时刻",
+      "description": "時計の読み方、時間の長さ、時刻と時間の関係を理解する。",
+      "gradeFrom": 1,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "MEASURE.02.001",
+          "nameJa": "時計の読み方",
+          "nameZh": "读钟表",
+          "description": "アナログ時計とデジタル時計を読み、時刻を正しく表す。",
+          "gradeFrom": 1,
+          "gradeTo": 1,
+          "keywords": [
+            "時計",
+            "時刻",
+            "時",
+            "分"
+          ],
+          "prerequisites": [
+            "NUM.01.001"
+          ],
+          "related": [
+            "MEASURE.02.002",
+            "MEASURE.02.003"
+          ]
+        },
+        {
+          "code": "MEASURE.02.002",
+          "nameJa": "時間の計算",
+          "nameZh": "时间计算",
+          "description": "開始時刻と終了時刻から経過時間を求め、時間と分の換算を行う。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "経過時間",
+            "時間",
+            "分"
+          ],
+          "prerequisites": [
+            "MEASURE.02.001"
+          ],
+          "related": [
+            "MEASURE.02.003",
+            "WORD.04.002"
+          ]
+        },
+        {
+          "code": "MEASURE.02.003",
+          "nameJa": "時刻と時間の複合問題",
+          "nameZh": "时刻与时间综合问题",
+          "description": "複数の行動や移動にかかる時間を整理し、目的の時刻や経過時間を求める。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "時刻",
+            "経過時間",
+            "複合問題"
+          ],
+          "prerequisites": [
+            "MEASURE.02.002"
+          ],
+          "related": [
+            "WORD.04.002",
+            "DATA.01.001"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "NUM.01",
+      "categoryCode": "NUM",
+      "nameJa": "整数の理解と位取り",
+      "nameZh": "整数理解与数位",
+      "description": "整数の読み書き、数の構成、位取り、数の大小と順序を理解する。",
+      "gradeFrom": 1,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "NUM.01.001",
+          "nameJa": "100までの数",
+          "nameZh": "100以内的数",
+          "description": "1から100までの数の読み方、書き方、数え方、順序を理解する。",
+          "gradeFrom": 1,
+          "gradeTo": 1,
+          "keywords": [
+            "整数",
+            "100まで",
+            "数える"
+          ],
+          "prerequisites": [],
+          "related": [
+            "NUM.01.002",
+            "NUM.01.004"
+          ]
+        },
+        {
+          "code": "NUM.01.002",
+          "nameJa": "1000までの数",
+          "nameZh": "1000以内的数",
+          "description": "1000までの数の構成、読み書き、数の大小、数直線上の位置を理解する。",
+          "gradeFrom": 1,
+          "gradeTo": 2,
+          "keywords": [
+            "1000まで",
+            "数直線",
+            "大小"
+          ],
+          "prerequisites": [
+            "NUM.01.001"
+          ],
+          "related": [
+            "NUM.01.003",
+            "NUM.01.004"
+          ]
+        },
+        {
+          "code": "NUM.01.003",
+          "nameJa": "大きな整数と位取り",
+          "nameZh": "大整数与数位",
+          "description": "万の位を含む整数の構成、十進位取り記数法、各位の数字の意味を理解する。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "万",
+            "位取り",
+            "十進法"
+          ],
+          "prerequisites": [
+            "NUM.01.002"
+          ],
+          "related": [
+            "NUM.02.001",
+            "NUM.03.001"
+          ]
+        },
+        {
+          "code": "NUM.01.004",
+          "nameJa": "数の大小と数直線",
+          "nameZh": "数的大小与数轴",
+          "description": "数の大小比較、数の並べ替え、数直線上での位置関係を理解する。",
+          "gradeFrom": 1,
+          "gradeTo": 3,
+          "keywords": [
+            "大小比較",
+            "数直線",
+            "順序"
+          ],
+          "prerequisites": [
+            "NUM.01.001"
+          ],
+          "related": [
+            "NUM.01.002",
+            "NUM.01.003"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "NUM.02",
+      "categoryCode": "NUM",
+      "nameJa": "数の分解と構成",
+      "nameZh": "数的分解与组合",
+      "description": "数を複数の数に分解したり、合成したりすることで数量感覚を養う。",
+      "gradeFrom": 1,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "NUM.02.001",
+          "nameJa": "数の分解と合成",
+          "nameZh": "数的分解与合成",
+          "description": "一つの数を複数の数の和として表し、数の構成と分解を理解する。",
+          "gradeFrom": 1,
+          "gradeTo": 2,
+          "keywords": [
+            "数の分解",
+            "数の合成",
+            "数量感覚"
+          ],
+          "prerequisites": [
+            "NUM.01.001"
+          ],
+          "related": [
+            "CALC.01.001",
+            "CALC.02.001"
+          ]
+        },
+        {
+          "code": "NUM.02.002",
+          "nameJa": "偶数と奇数",
+          "nameZh": "奇数与偶数",
+          "description": "整数を2で割ったときの余りに着目し、偶数と奇数の性質を理解する。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "偶数",
+            "奇数",
+            "2で割る"
+          ],
+          "prerequisites": [
+            "CALC.03.001"
+          ],
+          "related": [
+            "NUM.03.001",
+            "NUM.03.002"
+          ]
+        },
+        {
+          "code": "NUM.02.003",
+          "nameJa": "倍数と約数の基礎",
+          "nameZh": "倍数与约数基础",
+          "description": "ある整数を何倍かした数や、整数を割り切る数の関係を理解する。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "倍数",
+            "約数",
+            "整数"
+          ],
+          "prerequisites": [
+            "CALC.03.001"
+          ],
+          "related": [
+            "NUM.03.001",
+            "NUM.03.002"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "NUM.03",
+      "categoryCode": "NUM",
+      "nameJa": "数の規則と性質",
+      "nameZh": "数的规律与性质",
+      "description": "数の並び方や周期性、整数の性質を観察して規則を発見する。",
+      "gradeFrom": 2,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "NUM.03.001",
+          "nameJa": "数の並びと周期",
+          "nameZh": "数列与周期",
+          "description": "一定の規則で並ぶ数を観察し、次の数や特定の位置にある数を求める。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "数列",
+            "周期",
+            "規則"
+          ],
+          "prerequisites": [
+            "NUM.01.002",
+            "CALC.01.001"
+          ],
+          "related": [
+            "PATTERN.01.001",
+            "LOGIC.01.001"
+          ]
+        },
+        {
+          "code": "NUM.03.002",
+          "nameJa": "余りのある数の性質",
+          "nameZh": "有余数的数的性质",
+          "description": "整数を一定の数で割ったときの余りに注目し、数の分類や規則を発見する。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "余り",
+            "割り算",
+            "整数"
+          ],
+          "prerequisites": [
+            "CALC.03.002"
+          ],
+          "related": [
+            "NUM.02.002",
+            "NUM.02.003"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PATTERN.01",
+      "categoryCode": "PATTERN",
+      "nameJa": "数の規則性",
+      "nameZh": "数字规律",
+      "description": "数の増減や繰り返しの規則を発見し、次の数や特定の位置の数を求める。",
+      "gradeFrom": 1,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "PATTERN.01.001",
+          "nameJa": "等差的な数列",
+          "nameZh": "等差数列",
+          "description": "一定の数ずつ増減する数列の規則を理解し、続きの数や特定の項を求める。",
+          "gradeFrom": 1,
+          "gradeTo": 3,
+          "keywords": [
+            "数列",
+            "等差",
+            "増減"
+          ],
+          "prerequisites": [
+            "NUM.01.002"
+          ],
+          "related": [
+            "NUM.03.001",
+            "PATTERN.01.002"
+          ]
+        },
+        {
+          "code": "PATTERN.01.002",
+          "nameJa": "周期的な数の並び",
+          "nameZh": "周期性数字排列",
+          "description": "一定の間隔で繰り返す数や記号の周期を発見し、指定された位置の内容を求める。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "周期",
+            "繰り返し",
+            "位置"
+          ],
+          "prerequisites": [
+            "PATTERN.01.001"
+          ],
+          "related": [
+            "NUM.03.001",
+            "LOGIC.01.001"
+          ]
+        },
+        {
+          "code": "PATTERN.01.003",
+          "nameJa": "数表の規則",
+          "nameZh": "数字表格规律",
+          "description": "数表の横方向、縦方向、斜め方向の変化を観察し、数の規則を見つける。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "数表",
+            "縦横",
+            "斜め",
+            "規則"
+          ],
+          "prerequisites": [
+            "PATTERN.01.001"
+          ],
+          "related": [
+            "DATA.01.001",
+            "LOGIC.01.002"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PATTERN.02",
+      "categoryCode": "PATTERN",
+      "nameJa": "図形の規則性",
+      "nameZh": "图形规律",
+      "description": "図形の配置、移動、回転、増減の規則を発見する。",
+      "gradeFrom": 1,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "PATTERN.02.001",
+          "nameJa": "図形の並び方",
+          "nameZh": "图形排列规律",
+          "description": "図形や模様の繰り返しを観察し、次に来る図形や模様を予測する。",
+          "gradeFrom": 1,
+          "gradeTo": 2,
+          "keywords": [
+            "図形",
+            "模様",
+            "繰り返し"
+          ],
+          "prerequisites": [
+            "FIGURE.01.001"
+          ],
+          "related": [
+            "FIGURE.01.005",
+            "PATTERN.02.002"
+          ]
+        },
+        {
+          "code": "PATTERN.02.002",
+          "nameJa": "図形の移動と変化",
+          "nameZh": "图形移动与变化",
+          "description": "図形の移動、回転、反転、拡大縮小などの変化を観察して規則を見つける。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "移動",
+            "回転",
+            "反転",
+            "変化"
+          ],
+          "prerequisites": [
+            "PATTERN.02.001",
+            "FIGURE.01.005"
+          ],
+          "related": [
+            "LOGIC.01.001",
+            "FIGURE.01.003"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "WORD.01",
+      "categoryCode": "WORD",
+      "nameJa": "たし算・ひき算の文章題",
+      "nameZh": "加减法应用题",
+      "description": "増減、合併、比較などの数量関係を文章から読み取って解く。",
+      "gradeFrom": 1,
+      "gradeTo": 2,
+      "points": [
+        {
+          "code": "WORD.01.001",
+          "nameJa": "合併と増加の文章題",
+          "nameZh": "合并与增加问题",
+          "description": "複数の数量を合わせる問題や、数量が増える場面を加法で解く。",
+          "gradeFrom": 1,
+          "gradeTo": 1,
+          "keywords": [
+            "合併",
+            "増加",
+            "和"
+          ],
+          "prerequisites": [
+            "CALC.01.001"
+          ],
+          "related": [
+            "WORD.01.002",
+            "WORD.04.001"
+          ]
+        },
+        {
+          "code": "WORD.01.002",
+          "nameJa": "差と比較の文章題",
+          "nameZh": "差与比较应用题",
+          "description": "二つの数量の差や、どちらがいくつ多いか少ないかを求める。",
+          "gradeFrom": 1,
+          "gradeTo": 2,
+          "keywords": [
+            "差",
+            "比較",
+            "多い",
+            "少ない"
+          ],
+          "prerequisites": [
+            "CALC.01.002"
+          ],
+          "related": [
+            "WORD.04.001",
+            "WORD.05.001"
+          ]
+        },
+        {
+          "code": "WORD.01.003",
+          "nameJa": "段階的な増減の文章題",
+          "nameZh": "连续增减应用题",
+          "description": "数量が複数回増減する場面について、順序を整理して最終的な数量を求める。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "増減",
+            "段階",
+            "順序"
+          ],
+          "prerequisites": [
+            "WORD.01.001",
+            "WORD.01.002"
+          ],
+          "related": [
+            "WORD.04.002",
+            "WORD.05.001"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "WORD.02",
+      "categoryCode": "WORD",
+      "nameJa": "かけ算の文章題",
+      "nameZh": "乘法应用题",
+      "description": "一つ分の数量といくつ分の関係を理解し、乗法を利用して解く。",
+      "gradeFrom": 1,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "WORD.02.001",
+          "nameJa": "同じ数のまとまり",
+          "nameZh": "相同数量的分组",
+          "description": "同じ数量が複数ある場面を、乗法の式で表現して求める。",
+          "gradeFrom": 1,
+          "gradeTo": 2,
+          "keywords": [
+            "一つ分",
+            "いくつ分",
+            "乗法"
+          ],
+          "prerequisites": [
+            "CALC.02.001"
+          ],
+          "related": [
+            "WORD.02.002",
+            "WORD.03.001"
+          ]
+        },
+        {
+          "code": "WORD.02.002",
+          "nameJa": "複数のかけ算を使う文章題",
+          "nameZh": "多步乘法应用题",
+          "description": "複数の数量関係を整理し、二段階以上の乗法を用いて解く。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "複合文章題",
+            "二段階",
+            "乗法"
+          ],
+          "prerequisites": [
+            "WORD.02.001"
+          ],
+          "related": [
+            "WORD.04.002",
+            "WORD.05.002"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "WORD.03",
+      "categoryCode": "WORD",
+      "nameJa": "わり算の文章題",
+      "nameZh": "除法应用题",
+      "description": "等分、包含、余りのある場面を除法で解決する。",
+      "gradeFrom": 2,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "WORD.03.001",
+          "nameJa": "等しく分ける文章題",
+          "nameZh": "平均分配应用题",
+          "description": "全体の数量を同じ数ずつ分け、一人分や一組分の数量を求める。",
+          "gradeFrom": 2,
+          "gradeTo": 2,
+          "keywords": [
+            "等分",
+            "一人分",
+            "除法"
+          ],
+          "prerequisites": [
+            "CALC.03.001"
+          ],
+          "related": [
+            "WORD.03.002",
+            "WORD.02.001"
+          ]
+        },
+        {
+          "code": "WORD.03.002",
+          "nameJa": "余りのある文章題",
+          "nameZh": "有余数应用题",
+          "description": "余りが発生する場面を理解し、問題の条件に応じて商と余りを適切に処理する。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "余り",
+            "人数",
+            "グループ"
+          ],
+          "prerequisites": [
+            "WORD.03.001",
+            "CALC.03.002"
+          ],
+          "related": [
+            "NUM.03.002",
+            "WORD.04.002"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "WORD.04",
+      "categoryCode": "WORD",
+      "nameJa": "複合文章題",
+      "nameZh": "复合应用题",
+      "description": "複数の数量関係を組み合わせ、条件を整理して段階的に解く。",
+      "gradeFrom": 2,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "WORD.04.001",
+          "nameJa": "和と差の文章題",
+          "nameZh": "和差应用题",
+          "description": "二つの数量の和と差に関する条件から、それぞれの数量を求める。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "和差",
+            "二つの数量",
+            "条件整理"
+          ],
+          "prerequisites": [
+            "WORD.01.001",
+            "WORD.01.002"
+          ],
+          "related": [
+            "WORD.05.001",
+            "LOGIC.01.002"
+          ]
+        },
+        {
+          "code": "WORD.04.002",
+          "nameJa": "段階的な数量処理",
+          "nameZh": "分步骤数量处理",
+          "description": "複数の操作や変化を順番に整理し、途中の数量を求めながら解答する。",
+          "gradeFrom": 2,
+          "gradeTo": 3,
+          "keywords": [
+            "複合計算",
+            "段階的処理",
+            "条件整理"
+          ],
+          "prerequisites": [
+            "WORD.02.002",
+            "WORD.03.002"
+          ],
+          "related": [
+            "WORD.05.002",
+            "LOGIC.01.002"
+          ]
+        },
+        {
+          "code": "WORD.04.003",
+          "nameJa": "過不足の文章題",
+          "nameZh": "盈亏问题",
+          "description": "同じ数量を配る場合など、余りや不足の違いから元の数量や人数を求める。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "過不足",
+            "余り",
+            "不足"
+          ],
+          "prerequisites": [
+            "WORD.03.002",
+            "WORD.04.001"
+          ],
+          "related": [
+            "WORD.05.001",
+            "LOGIC.01.002"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "WORD.05",
+      "categoryCode": "WORD",
+      "nameJa": "逆算と条件整理",
+      "nameZh": "逆算与条件整理",
+      "description": "答えや途中結果から逆に考え、未知の数量を求める。",
+      "gradeFrom": 3,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "WORD.05.001",
+          "nameJa": "逆算を使う文章題",
+          "nameZh": "利用逆算的应用题",
+          "description": "最後の結果から操作を逆にたどり、最初の数量や未知数を求める。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "逆算",
+            "逆の操作",
+            "未知数"
+          ],
+          "prerequisites": [
+            "CALC.04.003"
+          ],
+          "related": [
+            "WORD.04.001",
+            "WORD.05.002"
+          ]
+        },
+        {
+          "code": "WORD.05.002",
+          "nameJa": "条件を整理する文章題",
+          "nameZh": "条件整理应用题",
+          "description": "文章中の複数の条件を整理し、図や表、式を使って解答を導く。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "条件整理",
+            "図",
+            "表",
+            "複合問題"
+          ],
+          "prerequisites": [
+            "WORD.04.002",
+            "CALC.04.003"
+          ],
+          "related": [
+            "LOGIC.01.002",
+            "DATA.01.001"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "WORD.06",
+      "categoryCode": "WORD",
+      "nameJa": "分数・小数の文章題",
+      "nameZh": "分数与小数应用题",
+      "description": "小数や分数を使った数量関係を文章から読み取り、計算する。",
+      "gradeFrom": 3,
+      "gradeTo": 3,
+      "points": [
+        {
+          "code": "WORD.06.001",
+          "nameJa": "小数を使う文章題",
+          "nameZh": "小数应用题",
+          "description": "長さや重さ、金額などの数量を小数で表し、加減乗除を利用して解く。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "小数",
+            "数量関係",
+            "文章題"
+          ],
+          "prerequisites": [
+            "CALC.05.002"
+          ],
+          "related": [
+            "MEASURE.01.002",
+            "WORD.04.002"
+          ]
+        },
+        {
+          "code": "WORD.06.002",
+          "nameJa": "分数を使う文章題",
+          "nameZh": "分数应用题",
+          "description": "全体を等分した数量やその一部分を分数で表し、基本的な数量問題を解く。",
+          "gradeFrom": 3,
+          "gradeTo": 3,
+          "keywords": [
+            "分数",
+            "全体",
+            "一部分"
+          ],
+          "prerequisites": [
+            "CALC.05.003",
+            "CALC.05.005"
+          ],
+          "related": [
+            "WORD.04.001",
+            "MEASURE.01.003"
+          ]
+        }
+      ]
+    }
+  ]
+}

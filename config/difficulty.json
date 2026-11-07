@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "levels": [
+    {
+      "level": 1,
+      "labelJa": "基礎",
+      "labelZh": "基础",
+      "descriptionJa": "用語と基本操作の確認。教科書の例題レベル。",
+      "descriptionZh": "确认术语与基本操作，教科书例题水平。"
+    },
+    {
+      "level": 2,
+      "labelJa": "基本",
+      "labelZh": "基本",
+      "descriptionJa": "基本公式をそのまま使う標準的な問題。",
+      "descriptionZh": "直接套用基本公式的标准题。"
+    },
+    {
+      "level": 3,
+      "labelJa": "標準",
+      "labelZh": "标准",
+      "descriptionJa": "条件を読み取り、複数の手順を組み合わせる問題。",
+      "descriptionZh": "需要读条件并组合多个步骤的问题。"
+    },
+    {
+      "level": 4,
+      "labelJa": "応用",
+      "labelZh": "应用",
+      "descriptionJa": "複数の考え方を使い分ける応用問題。",
+      "descriptionZh": "需要灵活运用多种思路的应用题。"
+    },
+    {
+      "level": 5,
+      "labelJa": "発展",
+      "labelZh": "进阶",
+      "descriptionJa": "中学受験の標準的な発展問題。",
+      "descriptionZh": "中学入学考试的标准进阶题。"
+    },
+    {
+      "level": 6,
+      "labelJa": "挑戦",
+      "labelZh": "挑战",
+      "descriptionJa": "難易度の高い総合問題・思考問題。",
+      "descriptionZh": "高难度综合题与思考题。"
+    }
+  ]
+}

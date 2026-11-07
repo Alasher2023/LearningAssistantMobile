@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="LearningAssistant">
+  <rect width="512" height="512" fill="#0f172a" />
+  <path
+    d="M256 128 L392 376 L120 376 Z"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="26"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M256 128 L256 376"
+    stroke="#38bdf8"
+    stroke-width="14"
+    stroke-dasharray="18 14"
+    stroke-linecap="round"
+  />
+  <path
+    d="M256 336 L216 336 L216 376"
+    fill="none"
+    stroke="#38bdf8"
+    stroke-width="10"
+  />
+</svg>

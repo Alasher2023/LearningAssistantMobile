@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "sources": [
+    "hamagakuen_grade1_3_math.json"
+  ],
+  "categories": [
+    {
+      "code": "CALC",
+      "nameJa": "計算",
+      "nameZh": "计算",
+      "description": "整数、小数、分数の四則計算、筆算、暗算、逆算、計算の工夫を習得する。",
+      "gradeFrom": 1,
+      "gradeTo": 3
+    },
+    {
+      "code": "DATA",
+      "nameJa": "表・グラフ",
+      "nameZh": "表格与图表",
+      "description": "表やグラフから数量を読み取り、情報を整理・比較して問題を解決する。",
+      "gradeFrom": 1,
+      "gradeTo": 3
+    },
+    {
+      "code": "FIGURE",
+      "nameJa": "図形",
+      "nameZh": "几何",
+      "description": "平面図形、立体図形、図形の構成要素、面積・周長の基礎、図形の分割と組み合わせを学ぶ。",
+      "gradeFrom": 1,
+      "gradeTo": 3
+    },
+    {
+      "code": "LOGIC",
+      "nameJa": "推理・場合の数",
+      "nameZh": "逻辑推理与排列组合",
+      "description": "条件を整理する推理問題、順列・組み合わせの基礎、試行錯誤による問題解決を学ぶ。",
+      "gradeFrom": 1,
+      "gradeTo": 3
+    },
+    {
+      "code": "MEASURE",
+      "nameJa": "単位・量",
+      "nameZh": "单位与量",
+      "description": "長さ、かさ、重さ、時間などの量の概念と単位換算を習得する。",
+      "gradeFrom": 1,
+      "gradeTo": 3
+    },
+    {
+      "code": "NUM",
+      "nameJa": "数の性質",
+      "nameZh": "数的性质",
+      "description": "整数の概念、位取り、数の大小、数列、倍数・約数の基礎など、数の性質を理解する。",
+      "gradeFrom": 1,
+      "gradeTo": 3
+    },
+    {
+      "code": "PATTERN",
+      "nameJa": "規則性",
+      "nameZh": "规律",
+      "description": "数、図形、操作の繰り返しや変化を観察し、規則を発見して未知の結果を求める。",
+      "gradeFrom": 1,
+      "gradeTo": 3
+    },
+    {
+      "code": "WORD",
+      "nameJa": "文章題",
+      "nameZh": "应用题",
+      "description": "文章から数量関係や条件を読み取り、適切な式、図、表を用いて解決する。",
+      "gradeFrom": 1,
+      "gradeTo": 3
+    }
+  ]
+}
